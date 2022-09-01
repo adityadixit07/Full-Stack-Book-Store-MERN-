@@ -9,7 +9,7 @@ const app = express();
 //   res.send("this is the book store app using react");
 // });
 app.use(express.json())
-app.use(cors())
+app.use(cors()) //this is used to break security
 app.use("/books",router)
 
 
